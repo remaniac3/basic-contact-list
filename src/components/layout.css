@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #383838;
+  background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
 }
 
 code {
@@ -12,8 +15,60 @@ code {
     monospace;
 }
 
-.avatar-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+.container {
+  display: inline-block;
+  justify-content: center;
+  background-color: white;
+  margin: 2rem 1rem;
+  border-radius: 1rem;
 }
+
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contacts .avatar-image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contacts .avatar {
+  padding: 0 1rem;
+}
+
+.contacts .details {
+  width: 50%;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.contacts h3 {
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+}
+
+.contacts p {
+  margin: 0.3rem 0;
+}
+
+/* @media (min-width: 42rem) {
+  .container {
+    background-color: white;
+    max-width: 640px;
+    margin: 3rem auto;
+    padding: 1rem 0;
+    border-radius: 1rem;
+  }
+} */
