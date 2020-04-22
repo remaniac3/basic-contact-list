@@ -1,6 +1,7 @@
 const contacts = [
 
     {
+        id: 1,
         name: "Stephen",
         profileImg: "https://www.goodfreephotos.com/albums/united-states/maine/acadia-national-park/raccoon-on-toad-at-acadia-national-park-maine.jpg",
         species: "Raccoon",
@@ -9,6 +10,7 @@ const contacts = [
     },
 
     {
+        id: 2,
         name: "Stacey",
         profileImg: "https://storage.needpix.com/rsynced_images/serval-profile.jpg",
         species: "Serval",
@@ -17,6 +19,7 @@ const contacts = [
     },
 
     {
+        id: 3,
         name: "Sawyer",
         profileImg: "https://cdn.pixabay.com/photo/2019/12/11/15/41/groundhog-4688628_960_720.jpg",
         species: "Groundhog",

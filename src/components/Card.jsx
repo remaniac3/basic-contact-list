@@ -1,19 +1,21 @@
 // Layout template of the cards.
 
 import React from "react";
-import "./layout.css";
+import ProfilePic from "./ProfilePic";
+import Details from "./Details";
+import EmailAddress from "./EmailAddress";
 
 function Card(props) {
     return (
         <div>
             <div>
                 <h3>{props.name}</h3>
-                <img src={props.img} alt={props.name} className="avatar-image"/>
+                <ProfilePic img={props.img} />
             </div>
             <div>
-                <p>{props.species}</p>
-                <p>{props.job}</p>
-                <p><a href={`mailto:${props.email}`}>{props.email}</a></p>
+                <Details detailInfo={props.species} />
+                <Details detailInfo={props.job} />
+                <EmailAddress emailAdd={props.email} />
             </div>
         </div>
     );

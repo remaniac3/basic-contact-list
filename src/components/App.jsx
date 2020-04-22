@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
+import "./layout.css";
 
 function App() {
     return (
