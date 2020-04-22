@@ -2,7 +2,7 @@ const contacts = [
 
     {
         name: "Stephen",
-        profileImg: "https://storage.needpix.com/rsynced_images/raccoon-3711848_1280.jpg",
+        profileImg: "https://www.goodfreephotos.com/albums/united-states/maine/acadia-national-park/raccoon-on-toad-at-acadia-national-park-maine.jpg",
         species: "Raccoon",
         occupation: "Leader of A Rock Band",
         email: "stephen@herosmith.com"
@@ -18,8 +18,8 @@ const contacts = [
 
     {
         name: "Sawyer",
-        profileImg: "https://c1.wallpaperflare.com/preview/667/808/901/marten-raccoon-dog-animal-tanuki.jpg",
-        species: "Raccoon Dog",
+        profileImg: "https://cdn.pixabay.com/photo/2019/12/11/15/41/groundhog-4688628_960_720.jpg",
+        species: "Groundhog",
         occupation: "Real Estate Salesperson",
         email: "sawyer@nookyrealestate.com"
     }
