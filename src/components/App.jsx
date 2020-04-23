@@ -18,10 +18,16 @@ function createCard(contact) {
 
 function App() {
     return (
-        <div className="container">
-            <h1>Contacts</h1>
-            {contacts.map(createCard)};
-        </div>
+        <>
+            <div className="container">
+                <h1>Contacts</h1>
+                {contacts.map(createCard)}
+            </div>
+
+            <footer>
+                R3MANIAC © 2010-{new Date().getFullYear()}
+            </footer>
+        </>
     )
 }
 

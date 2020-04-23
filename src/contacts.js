@@ -25,6 +25,24 @@ const contacts = [
         species: "Groundhog",
         occupation: "Real Estate Salesperson",
         email: "sawyer@nookyrealestate.com"
+    },
+
+    {
+        id: 4,
+        name: "Sally",
+        profileImg: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Squirrel_posing.jpg",
+        species: "Squirrel",
+        occupation: "Park Ranger",
+        email: "sally@nutpark.gov"
+    },
+
+    {
+        id: 5,
+        name: "Spencer",
+        profileImg: "https://live.staticflickr.com/4023/4215811067_4854cf9d24_z.jpg",
+        species: "Bernese Mountain Dog",
+        occupation: "Finance Advisor",
+        email: "spencer@doggolete.com"
     }
 ];
 
